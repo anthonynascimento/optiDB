@@ -3057,7 +3057,7 @@ tbody.collapse.show {
     color: #ffffff; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(255, 255, 255); }
   .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75); }
   .navbar-dark .navbar-nav .nav-link.disabled {
@@ -6370,7 +6370,7 @@ b, strong {
   font-weight: 700; }
 
 .navbar-inverse .navbar-nav .nav-link, .navbar .navbar-brand, .navbar-toggler span {
-  color: rgba(255, 255, 255, 0.8); }
+  color: rgba(255, 255, 255); }
 
 .navbar .nav-item .active, .navbar .nav-link:hover, .navbar .nav-link:focus, .navbar .navbar-brand:hover {
   color: #fff !important; }
@@ -6401,12 +6401,12 @@ b, strong {
   font-weight: 700; }
 
 a {
-  color: #00c2cc;
+  color: #ffffff;
   transition: all .35s; }
 
 a:hover,
 a:focus {
-  color: #00c2cc !important;
+  color: rgb(255, 255, 255) !important;
   outline: 0;
   text-decoration: none !important; }
 
@@ -6429,7 +6429,7 @@ section {
   color: #999; }
 
 .card-outline-primary {
-  border: solid 1px #00c2cc; }
+  border: solid 1px #F36A5A; }
 
 .small-xl {
   font-size: 90%; }
@@ -6444,10 +6444,10 @@ section {
 * Background Colors
 ================================================*/
 .bg-texture {
-  background: transparent radial-gradient(circle farthest-side at right bottom, #209fc9 5%, #0791bf 25%, #0089b5 80%, #017ca3 98%) repeat scroll 0% 0%; }
+  background: transparent radial-gradient(circle farthest-side at right bottom, rgb(233, 120, 108) 5%, #F36A5A 25%, rgb(192, 63, 49) 80%, rgb(184, 54, 39) 98%) repeat scroll 0% 0%; }
 
 .bg-texture-collage {
-  background: linear-gradient(-45deg, #209fc9 33%, transparent 0%), linear-gradient(-45deg, #0791bf 67%, transparent 33%), linear-gradient(-45deg, #209fc9 100%, transparent 67%); }
+  background: linear-gradient(-45deg, #F36A5A 33%, transparent 0%), linear-gradient(-45deg, rgb(192, 63, 49) 67%, transparent 33%), linear-gradient(-45deg, #F36A5A 100%, transparent 67%); }
 
 .bg-alt {
   background-color: #fff; }
@@ -6477,10 +6477,10 @@ section {
   color: #fff; }
 
 .text-primary {
-  color: #00c2cc !important; }
+  color: #F36A5A !important; }
 
 .text-primary-light {
-  color: #00f2ff; }
+  color: rgb(255, 25, 0); }
 
 /*===============================================
 * Icon Sizes
@@ -6554,7 +6554,7 @@ section {
 * Social Icons
 ================================================*/
 .text-twitter-alt, .text-facebook-alt, .text-linkedin-alt, .text-google-alt, .text-github-alt {
-  color: #00c2cc; }
+  color: #F36A5A; }
 
 .text-twitter, .text-twitter-alt:hover {
   color: #00aced; }
@@ -6580,7 +6580,7 @@ section {
 
 .card .card-body .icon-box {
   padding: 20px 0;
-  color: #00c2cc; }
+  color: #F36A5A; }
 
 .card .card-body h6 {
   padding-bottom: 15px;
@@ -6618,18 +6618,18 @@ Pricing tables & lists
   left: -25px;
   top: 8px;
   font-size: 10px;
-  color: #00c2cc;
+  color: #F36A5A;
   font-family: "Ionicons"; }
 
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
-  background: #00c2cc; }
+  background: #F36A5A; }
 
 ::selection {
   color: #fff;
   text-shadow: none;
-  background: #00c2cc; }
+  background: #F36A5A; }
 
 .todo {
   background: #e2e2e2;
